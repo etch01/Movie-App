@@ -1,4 +1,4 @@
-export default interface Movie{
+export default interface Movies{
     Title:string;
     Year:string;
     imdbID:string;
