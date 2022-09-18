@@ -25,4 +25,16 @@ npx react-native run-ios
 ```
 ````
   
-you will find apk under android/app/build/outputs/apk/release
+If you are using Apple Silicon (M1) and pod install failed use this 
+
+````
+```
+sudo arch -x86_64 gem install ffi
+```
+````
+
+````
+```
+arch -x86_64 pod install
+```
+````
